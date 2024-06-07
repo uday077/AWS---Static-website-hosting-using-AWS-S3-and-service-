@@ -1,0 +1,15 @@
+{
+  "Id": "Policy1717751932272",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1717751930325",
+      "Action": [
+        "s3:GetBucketPolicy"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::staticwebsite14/*",
+      "Principal": "*"
+    }
+  ]
+}
